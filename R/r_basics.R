@@ -56,6 +56,22 @@ identical(42, "42") # type matters for identity
 
 
 # variables ----
+x <- "this is a string" # in R, read as assigning the string to variable x
+x
+typeof(x)
+x <- 10
+x
+x ^ 2 # always refers to the assigned value
+
+x <- "pizza"
+pizza <- "x"
+pizza
+my var <- 42 # not everything though
+my_var <- 42 # that is better
+my_var = 42 # works, but not standard in R
+my_var
+x <- my_var # helps reader follow assignment direction
+x
 
 
 # data structures ----
