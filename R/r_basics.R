@@ -99,6 +99,17 @@ all(a <3) # tests whether all comparisons TRUE
 
 # data frames - the key structure for data science, multi-dimensional
 #   collections of vectors
+df <- data.frame(a = c (1, 2, 3),
+                 b = c("joe", "tammy", "matt")) # collection of vectors
+df
+
+df$a # references single column
+df$b
+
+df
+df$mode <- c("bike", "car", "bus") #adding a column
+df
+summary(df) # summarizes by column
 
 
 # Special type: factors, and putting it all together ----
